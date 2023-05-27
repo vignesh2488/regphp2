@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surya textiles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="http://localhost/regpage/register.php" name="form" method="post">
+        <label for="username" >Username</label>
+        <input type="text" placeholder="Type here" name="username" id="username"><br>
+        <label for="Email">Email</label>
+        <input type="email" placeholder="email@dmail.dom" name="email"><br>
+        <label for="Mobile number">Mobile number</label>
+        <input type="text" name="Mobile Number" placeholder="9876543210"><br>
+        <label for="Password">Password</label>
+        <input type="password" placeholder="Atleast 8 words"><br>
+        <input id="btn" type="submit" placeholder="signup">
+    </form>
+</body>
+</html>
